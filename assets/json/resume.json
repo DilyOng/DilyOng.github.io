@@ -34,8 +34,8 @@
       "endDate": "2026",
       "courses": [
         "Machine-learning-enhanced Bayesian inference on cosmological projects",
-        "Main author of unimpeded, an open-source Python package for cosmological model comparison",
-        "Contributing author of anesthetic, a Python package for processing nested sampling chains",
+        "Main author of <a href='https://github.com/handley-lab/unimpeded'>unimpeded</a>, an open-source Python package for parameter estimation, model comparison and tension quantification",
+        "Contributing author of <a href='https://github.com/handley-lab/anesthetic'>anesthetic</a>, a Python package for processing nested sampling chains",
         "Developing machine-learning-accelerated nested sampling methods"
       ]
     },
