@@ -51,12 +51,12 @@
   "projects": [
     {
       "name": "Master's Project: Investigating Anomalies in the Cosmic Microwave Background Sky",
-      "summary": "Built Python algorithm to evaluate unusual features in the CMB using Bayesian statistics with 150,000 simulated universe temperature maps",
+      "summary": "Built Python algorithm to evaluate unusual features in the CMB using Bayesian statistics with 150,000 simulated universe temperature maps. Supervisor: <a href='https://profiles.imperial.ac.uk/a.heavens/about'>Professor Alan Heavens</a>",
       "highlights": ["Python", "Bayesian statistics", "Big data analysis"]
     },
     {
       "name": "Bachelor's Project: The Map of the Universe",
-      "summary": "Developed Python algorithm to calculate future trajectory of stars and planets in geocentric coordinate system",
+      "summary": "Developed Python algorithm to calculate future trajectory of stars and planets in geocentric coordinate system. Supervisor: <a href='https://profiles.imperial.ac.uk/r.trotta'>Professor Roberto Trotta</a>",
       "highlights": ["Python", "Differential geometry", "Animation"]
     }
   ],
