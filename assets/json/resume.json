@@ -48,6 +48,18 @@
       "studyType": "MSci Physics"
     }
   ],
+  "projects": [
+    {
+      "name": "Master's Project: Investigating Anomalies in the Cosmic Microwave Background Sky",
+      "summary": "Built Python algorithm to evaluate unusual features in the CMB using Bayesian statistics with 150,000 simulated universe temperature maps",
+      "highlights": ["Python", "Bayesian statistics", "Big data analysis"]
+    },
+    {
+      "name": "Bachelor's Project: The Map of the Universe",
+      "summary": "Developed Python algorithm to calculate future trajectory of stars and planets in geocentric coordinate system",
+      "highlights": ["Python", "Differential geometry", "Animation"]
+    }
+  ],
   "work": [
     {
       "name": "University of Cambridge",
@@ -138,18 +150,6 @@
         "Model Comparison",
         "Tension Quantification"
       ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Master's Project: Investigating Anomalies in the Cosmic Microwave Background Sky",
-      "summary": "Built Python algorithm to evaluate unusual features in the CMB using Bayesian statistics with 150,000 simulated universe temperature maps",
-      "highlights": ["Python", "Bayesian statistics", "Big data analysis"]
-    },
-    {
-      "name": "Bachelor's Project: The Map of the Universe",
-      "summary": "Developed Python algorithm to calculate future trajectory of stars and planets in geocentric coordinate system",
-      "highlights": ["Python", "Differential geometry", "Animation"]
     }
   ]
 }
