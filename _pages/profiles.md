@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-I am a current member of [The Handley Research Group](https://handley-lab.co.uk/) led by [Dr Will Handley](https://www.kicc.cam.ac.uk/directory/wh260), based in the Institute of Astronomy at the University of Cambridge. Our research focuses on Bayesian statistics, machine learning, and data analysis for astrophysics, cosmology and high energy physics.
+I am a current member of [The Handley Research Group](https://handley-lab.co.uk/) led by [Dr Will Handley](https://www.kicc.cam.ac.uk/directory/wh260), based in the Institute of Astronomy at the University of Cambridge. Our research group focuses on Bayesian statistics, machine learning, and data analysis for astrophysics, cosmology and high energy physics.
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-3 mt-3 mt-md-0">
