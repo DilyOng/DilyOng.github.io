@@ -67,9 +67,7 @@
       "url": "https://www.cam.ac.uk/",
       "endDate": "2016",
       "summary": "12-week research internship in the Cavendish Astrophysics Group",
-      "highlights": [
-        "Evaluated calibration strategy for radio antenna"
-      ]
+      "highlights": ["Evaluated calibration strategy for radio antenna"]
     }
   ],
   "skills": [
@@ -77,38 +75,19 @@
       "name": "Programming",
       "level": "Expert",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python (10+ years)",
-        "Vim",
-        "LaTeX",
-        "Matlab",
-        "Bash/Zsh",
-        "Object-oriented programming"
-      ]
+      "keywords": ["Python (10+ years)", "Vim", "LaTeX", "Matlab", "Bash/Zsh", "Object-oriented programming"]
     },
     {
       "name": "Machine Learning",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "TensorFlow",
-        "PyTorch",
-        "Scikit-Learn",
-        "Neural Networks",
-        "Normalising Flows"
-      ]
+      "keywords": ["TensorFlow", "PyTorch", "Scikit-Learn", "Neural Networks", "Normalising Flows"]
     },
     {
       "name": "Data Science",
       "level": "Advanced",
       "icon": "fa-solid fa-chart-line",
-      "keywords": [
-        "Pandas",
-        "NumPy",
-        "SciPy",
-        "Matplotlib",
-        "Seaborn"
-      ]
+      "keywords": ["Pandas", "NumPy", "SciPy", "Matplotlib", "Seaborn"]
     }
   ],
   "languages": [
@@ -142,14 +121,7 @@
     {
       "name": "Research",
       "icon": "fa-solid fa-telescope",
-      "keywords": [
-        "Cosmology",
-        "Bayesian Statistics",
-        "Machine Learning",
-        "Nested Sampling",
-        "Model Comparison",
-        "Tension Quantification"
-      ]
+      "keywords": ["Cosmology", "Bayesian Statistics", "Machine Learning", "Nested Sampling", "Model Comparison", "Tension Quantification"]
     }
   ]
 }
