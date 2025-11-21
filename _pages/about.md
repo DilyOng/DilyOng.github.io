@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Final-year PhD Student · <a href='https://www.kicc.cam.ac.uk/staff/dily-ong'>Kavli Institute for Cosmology</a> · University of Cambridge
+subtitle: <a href='https://www.kicc.cam.ac.uk/staff/dily-ong'>Final-year PhD Student at the University of Cambridge</a> · Kavli Institute for Cosmology
 
 profile:
   align: right
