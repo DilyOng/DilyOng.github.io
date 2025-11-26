@@ -12,7 +12,7 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/pdf/unimpeded/flowchart.pdf" title="Unimpeded workflow" class="img-fluid rounded z-depth-1" %}
+        <embed src="{{ '/assets/pdf/unimpeded/flowchart.pdf' | relative_url }}" type="application/pdf" width="100%" height="600px" class="rounded z-depth-1" />
     </div>
 </div>
 <div class="caption">
@@ -28,7 +28,7 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/pdf/unimpeded/tension_stats.pdf" title="Tension statistics" class="img-fluid rounded z-depth-1" %}
+        <embed src="{{ '/assets/pdf/unimpeded/tension_stats.pdf' | relative_url }}" type="application/pdf" width="100%" height="600px" class="rounded z-depth-1" />
     </div>
 </div>
 <div class="caption">
