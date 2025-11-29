@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: I am the main author of <a href="https://github.com/handley-lab/unimpeded">unimpeded</a> and a contributing author of <a href="https://github.com/handley-lab/anesthetic">anesthetic</a>.
+description: 'I am the main author of <a href="https://github.com/handley-lab/unimpeded">unimpeded</a> and a contributing author of <a href="https://github.com/handley-lab/anesthetic">anesthetic</a>.'
 nav: true
 nav_order: 4
 ---
