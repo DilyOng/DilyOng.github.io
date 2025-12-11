@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: "I am the main author of unimpeded and a contributing author of anesthetic."
 nav: true
 nav_order: 4

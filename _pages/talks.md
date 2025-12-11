@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: talks & conferences
+title: Talks & Conferences
 description: Highlighted academic talks and conference presentations.
 nav: true
 nav_order: 5

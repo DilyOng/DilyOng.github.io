@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /people/
-title: people
+title: People
 description: The Handley Research Group
 nav: true
 nav_order: 8

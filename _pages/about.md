@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Final-year PhD Student · <a href='https://www.kicc.cam.ac.uk/staff/dily-ong'>Kavli Institute for Cosmology</a> · University of Cambridge
 
