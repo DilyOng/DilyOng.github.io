@@ -72,7 +72,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-stargazing",
           title: 'Stargazing',
-          description: "Observations from the Institute of Astronomy",
+          description: "Observations at the Institute of Astronomy",
           section: "Projects",handler: () => {
               window.location.href = "/projects/stargazing/";
             },},{id: "projects-unimpeded",
