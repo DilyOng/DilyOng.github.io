@@ -70,7 +70,12 @@ ninja.data = [{
             },},{id: "news-new-paper-on-arxiv-a-bayesian-perspective-on-evidence-for-evolving-dark-energy-presenting-a-direct-bayesian-model-comparison-using-nested-sampling-to-analyse-desi-dr2-data-arxiv-2511-10631",
           title: 'New paper on arXiv: A Bayesian Perspective on Evidence for Evolving Dark Energy...',
           description: "",
-          section: "News",},{id: "projects-unimpeded",
+          section: "News",},{id: "projects-stargazing",
+          title: 'Stargazing',
+          description: "Observations from the Institute of Astronomy",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/stargazing/";
+            },},{id: "projects-unimpeded",
           title: 'unimpeded',
           description: "A public nested sampling database for Bayesian cosmology",
           section: "Projects",handler: () => {
