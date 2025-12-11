@@ -2,6 +2,10 @@
   type: 30-min talk
   event: CosmoVerse Journal Club
 
+- date: Oct 2025
+  type: Talk
+  event: Introduction to KICC 2025, University of Cambridge
+
 - date: July 2025
   type: 20-min talk
   event: 24th International Conference on General Relativity and Gravitation (GR24) and the 16th Edoardo Amaldi Conference on Gravitational Waves (Amaldi16)
@@ -12,7 +16,7 @@
   event: CosmoVerse@Istanbul 2025
 
 - date: June 2025
-  type: 3-min flash talk and poster session
+  type: Flash talk and poster session
   event: European AI for Fundamental Physics Conference
 
 - date: May 2025
@@ -24,5 +28,5 @@
   event: CosmoVerse@Krakow 2024 (invited and fully funded by conference committee)
 
 - date: April 2024
-  type: 3-min flash talk and poster session
+  type: Flash talk and poster session
   event: European AI for Fundamental Physics Conference
