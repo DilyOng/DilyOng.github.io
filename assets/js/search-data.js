@@ -4,48 +4,48 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
+          title: "Repositories",
           description: "I am the main author of unimpeded and a contributing author of anesthetic.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-talks-amp-conferences",
-          title: "talks &amp; conferences",
+          title: "Talks &amp; Conferences",
           description: "Highlighted academic talks and conference presentations.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-people",
-          title: "people",
+          title: "People",
           description: "The Handley Research Group",
           section: "Navigation",
           handler: () => {
