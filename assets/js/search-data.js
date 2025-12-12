@@ -70,7 +70,12 @@ ninja.data = [{
             },},{id: "news-new-paper-on-arxiv-signatures-of-star-formation-inside-galactic-outflows-examining-local-galaxies-with-powerful-agn-to-find-evidence-for-star-formation-within-galactic-outflows-arxiv-2512-10924",
           title: 'New paper on arXiv: Signatures of star formation inside galactic outflows - examining...',
           description: "",
-          section: "News",},{id: "projects-stargazing",
+          section: "News",},{id: "projects-star-formation-in-galactic-outflows",
+          title: 'Star Formation in Galactic Outflows',
+          description: "Evidence for star formation inside galactic outflows from X-shooter observations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/starformation/";
+            },},{id: "projects-stargazing",
           title: 'Stargazing',
           description: "Observations at the Institute of Astronomy",
           section: "Projects",handler: () => {
