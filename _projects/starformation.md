@@ -57,7 +57,7 @@ This work provides observational support for theoretical predictions of star for
 
 ## References
 
-- **arXiv Paper:** [arXiv:2512.10924](https://arxiv.org/abs/2512.10924)
+- Ong, D. D. Y., D'Eugenio, F., Maiolino, R., et al. (2025). **Signatures of star formation inside galactic outflows.** [arXiv:2512.10924](https://arxiv.org/abs/2512.10924)
 
 <!--
 ## Resources
