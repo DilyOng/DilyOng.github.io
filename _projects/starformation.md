@@ -15,7 +15,7 @@ Galactic outflows, powerful streams of gas expelled from galaxies, have long bee
         {% include figure.liquid loading="eager" path="assets/img/starformation/spectrum_fit.png" title="Spectrum fitting" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption" style="text-align: left;">
     An example of simultaneously fitting the stellar continuum (red) and emission lines (orange) of the spectrum (black) of galaxy IRAS 20551-4250 extracted from the central region in the UVB range. Shown below the fit are the residuals (blue) from the PPXF fitting and the noise spectrum (magenta) from the observation.
 </div>
 
@@ -28,7 +28,7 @@ We performed detailed spectral decomposition using multiple Gaussian components 
         {% include figure.liquid loading="eager" path="assets/img/starformation/emission_lines.png" title="Emission line decomposition" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption" style="text-align: left;">
     Subsections of continuum-subtracted X-shooter spectra (black) of the galaxy IRAS 20551-4250, extracted from the central region around the relevant emission lines for BPT-diagnostics, displaying the decomposition by 4 Gaussian components (see legend) representing the narrow components associated with the gas in the galactic disk and the broad components tracing the outflows. For clarity of presentation, the best-fit stellar continuum is subtracted in this figure. However, the full spectral fit with ppxf was performed on the stellar continuum and emission lines simultaneously.
 </div>
 
@@ -41,7 +41,7 @@ Using Baldwin-Phillips-Terlevich (BPT) diagnostic diagrams, we classified the io
         {% include figure.liquid loading="eager" path="assets/img/starformation/bpt_diagrams.png" title="BPT diagnostic diagrams" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption" style="text-align: left;">
     The flux ratios of the individual components extracted at different apertures for galaxy IRAS 20551-4250 are plotted on the [NII] (left), [SII] (middle) and [OI] (right) diagnostic diagrams. Most of the outflowing components are located in the star forming region of the diagram, especially in the [SII]-BPT and [OI]-BPT, which are less affected by metallicity and nitrogen enrichment dependence. The velocity of each component is colour-coded, from red (more redshifted) to blue (more blueshifted). The symbols are proportional to the FWHM of the component, as indicated by the legend above. The black line contours indicate the distribution of galaxies and AGN (10, 30, 68, 85 and 95 percent) from the SDSS.
 </div>
 
