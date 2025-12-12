@@ -39,10 +39,10 @@ related_publications: true
 
 This project significantly lowers the barrier to entry for advanced cosmological analysis and establishes a new standard for open, reproducible science in the field. It provides the community with a powerful, common baseline to systematically investigate cosmological tensions and explore physics beyond the standard model.
 
-## References
-
-- Ong, D. D. Y., & Handley, W. (2025). **unimpeded: A Public Nested Sampling Database for Bayesian Cosmology.** [arXiv:2511.05470](https://arxiv.org/abs/2511.05470)
-
 ## Resources
 
 - **GitHub Repository:** [https://github.com/handley-lab/unimpeded](https://github.com/handley-lab/unimpeded)
+
+## References
+
+- Ong, D. D. Y., & Handley, W. (2025). **unimpeded: A Public Nested Sampling Database for Bayesian Cosmology.** [arXiv:2511.05470](https://arxiv.org/abs/2511.05470)
