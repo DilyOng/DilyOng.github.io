@@ -2,7 +2,7 @@
 layout: page
 title: Star Formation in Galactic Outflows
 description: Evidence for star formation inside galactic outflows from X-shooter observations
-img: assets/img/starformation/bpt_diagrams.png
+img: assets/img/starformation/spectrum_fit.png
 importance: 2
 category: work
 related_publications: true
