@@ -67,8 +67,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-paper-on-arxiv-a-bayesian-perspective-on-evidence-for-evolving-dark-energy-presenting-a-direct-bayesian-model-comparison-using-nested-sampling-to-analyse-desi-dr2-data-arxiv-2511-10631",
-          title: 'New paper on arXiv: A Bayesian Perspective on Evidence for Evolving Dark Energy...',
+            },},{id: "news-new-paper-on-arxiv-signatures-of-star-formation-inside-galactic-outflows-examining-local-galaxies-with-powerful-agn-to-find-evidence-for-star-formation-within-galactic-outflows-arxiv-2512-10924",
+          title: 'New paper on arXiv: Signatures of star formation inside galactic outflows - examining...',
           description: "",
           section: "News",},{id: "projects-stargazing",
           title: 'Stargazing',
