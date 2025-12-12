@@ -38,6 +38,14 @@ nav_order: 5
                       </td>
                       <td class="institution">{{ talk.event }}</td>
                     </tr>
+                    {% if talk.location %}
+                      <tr>
+                        <td style="vertical-align: top; text-align: center" class="institution">
+                          <i class="fa-solid fa-location-dot iconinstitution"></i>
+                        </td>
+                        <td class="institution">{{ talk.location }}</td>
+                      </tr>
+                    {% endif %}
                   </tbody>
                 </table>
                 {% if talk.video or talk.slides %}
