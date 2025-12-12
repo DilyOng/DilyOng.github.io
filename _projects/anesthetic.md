@@ -5,7 +5,7 @@ description: A Python package for processing nested sampling and MCMC chains
 img: assets/img/anesthetic/prior_posterior.png
 importance: 1.5
 category: work
-related_publications: true
+related_publications: false
 ---
 
 `anesthetic` is a Python package for processing nested sampling and MCMC chains, providing powerful tools for visualising and analysing high-dimensional astronomical data.
