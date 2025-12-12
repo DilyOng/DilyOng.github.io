@@ -55,6 +55,12 @@ Out of seven galaxies with clearly detected outflows, we found:
 
 This work provides observational support for theoretical predictions of star formation in galactic outflows, potentially representing a previously unrecognized mode of star formation in the universe.
 
+## References
+
+- **arXiv Paper:** [arXiv:2512.10924](https://arxiv.org/abs/2512.10924)
+
+<!--
 ## Resources
 
 - **arXiv Paper:** [arXiv:2512.10924](https://arxiv.org/abs/2512.10924)
+-->
