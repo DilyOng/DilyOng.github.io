@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-11-14
+date: 2025-12-12
 inline: true
 related_posts: false
 ---
 
-New paper on arXiv: **A Bayesian Perspective on Evidence for Evolving Dark Energy** - presenting a direct Bayesian model comparison using nested sampling to analyse DESI DR2 data. [arXiv:2511.10631](https://arxiv.org/abs/2511.10631)
+New paper on arXiv: **Signatures of star formation inside galactic outflows** - examining local galaxies with powerful AGN to find evidence for star formation within galactic outflows. [arXiv:2512.10924](https://arxiv.org/abs/2512.10924)
