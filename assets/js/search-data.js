@@ -91,6 +91,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/unimpeded/";
             },},{
+        id: 'social-ads_library_id',
+        title: 'Ads_library_id',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
         id: 'social-arxiv',
         title: 'arXiv',
         section: 'Socials',
