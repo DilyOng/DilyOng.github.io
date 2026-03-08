@@ -359,16 +359,20 @@
             </a>
           {% endif %}
           {% if entry_has_ads_badge %}
-            <a
-              href="https://ui.adsabs.harvard.edu/search/q=arXiv:{{ entry.arxiv }}"
-              aria-label="NASA ADS link"
-              role="button"
-            >
-              <img
-                src="https://img.shields.io/badge/Cited:_{% ads_citations entry.arxiv %}-1a1a2e?labelColor=beige"
-                alt="Cited: {% ads_citations entry.arxiv %} (NASA ADS)"
+            {% capture ads_count %}{% ads_citations entry.arxiv %}{% endcapture %}
+            {% assign ads_count_stripped = ads_count | strip %}
+            {% if ads_count_stripped != "0" and ads_count_stripped != "N/A" %}
+              <a
+                href="https://ui.adsabs.harvard.edu/search/q=arXiv:{{ entry.arxiv }}"
+                aria-label="NASA ADS link"
+                role="button"
               >
-            </a>
+                <img
+                  src="https://img.shields.io/badge/Cited:_{{ ads_count_stripped }}-1a1a2e?labelColor=beige"
+                  alt="Cited: {{ ads_count_stripped }} (NASA ADS)"
+                >
+              </a>
+            {% endif %}
           {% endif %}
         </div>
       {% endif %}
