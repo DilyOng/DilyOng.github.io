@@ -279,7 +279,12 @@
       {% if site.enable_publication_badges.ads and entry.arxiv %}
         {% assign entry_has_ads_badge = true %}
       {% endif %}
-      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge or entry_has_inspirehep_badge or entry_has_ads_badge %}
+      {% if entry_has_altmetric_badge
+        or entry_has_dimensions_badge
+        or entry_has_google_scholar_badge
+        or entry_has_inspirehep_badge
+        or entry_has_ads_badge
+      %}
         <div class="badges">
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
@@ -361,7 +366,7 @@
           {% if entry_has_ads_badge %}
             {% capture ads_count %}{% ads_citations entry.arxiv %}{% endcapture %}
             {% assign ads_count_stripped = ads_count | strip %}
-            {% if ads_count_stripped != "0" and ads_count_stripped != "N/A" %}
+            {% if ads_count_stripped != '0' and ads_count_stripped != 'N/A' %}
               <a
                 href="https://ui.adsabs.harvard.edu/search/q=arXiv:{{ entry.arxiv }}"
                 aria-label="NASA ADS link"
