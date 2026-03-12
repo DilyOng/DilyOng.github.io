@@ -83,6 +83,11 @@ ninja.data = [{
           description: "Social Officer at the Cambridge University Hong Kong Postgraduate Scholars Association (2025-2026)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cuhkpgsa/";
+            },},{id: "projects-joy-luck-club",
+          title: 'Joy Luck Club',
+          description: "Committee Member at the Cambridge University Joy Luck Club (2025-2026)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/joyluckclub/";
             },},{id: "projects-star-formation-in-galactic-outflows",
           title: 'Star Formation in Galactic Outflows',
           description: "Evidence for star formation inside galactic outflows from X-shooter observations",
