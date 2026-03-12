@@ -78,6 +78,11 @@ ninja.data = [{
           description: "A Python package for processing nested sampling and MCMC chains",
           section: "Projects",handler: () => {
               window.location.href = "/projects/anesthetic/";
+            },},{id: "projects-cuhkpgsa",
+          title: 'CUHKPGSA',
+          description: "Social Officer at the Cambridge University Hong Kong Postgraduate Scholars Association (2025-2026)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cuhkpgsa/";
             },},{id: "projects-star-formation-in-galactic-outflows",
           title: 'Star Formation in Galactic Outflows',
           description: "Evidence for star formation inside galactic outflows from X-shooter observations",
