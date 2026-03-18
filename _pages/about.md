@@ -30,3 +30,5 @@ I am a <a href='https://www.kicc.cam.ac.uk/staff/dily-ong'>final-year PhD studen
 I am the author of [unimpeded](https://github.com/handley-lab/unimpeded), a Python package that transforms months of supercomputer calculations into seconds on the laptops of cosmologists and astrophysicists, democratising access to expensive nested sampling chains, enabling cosmological model comparison and observational dataset analysis for researchers worldwide. I am also a contributing author of [anesthetic](https://github.com/handley-lab/anesthetic), a Python package for processing cosmological nested sampling and MCMC chains.
 
 **Research Interests:** Cosmology, Astrophysics, Bayesian Statistics, Machine Learning, Model Comparison, Tension Quantification, Nested Sampling
+
+**Contact me:** dlo26@cam.ac.uk
