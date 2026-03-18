@@ -31,4 +31,4 @@ I am the author of [unimpeded](https://github.com/handley-lab/unimpeded), a Pyth
 
 **Research Interests:** Cosmology, Astrophysics, Bayesian Statistics, Machine Learning, Model Comparison, Tension Quantification, Nested Sampling
 
-**Contact me:** dlo26@cam.ac.uk
+**Contact me:** [dlo26@cam.ac.uk](mailto:dlo26@cam.ac.uk)
