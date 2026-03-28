@@ -2,7 +2,7 @@
 layout: page
 title: Cambridge University Astronomical Society Neptune 2026
 description: Author of an article for Neptune, the annual magazine of the Cambridge University Astronomical Society
-img: assets/img/neptune2026/thumbnail.png
+img: assets/img/neptune2026/thumbnail.jpg
 importance: 2
 ---
 
@@ -12,6 +12,6 @@ I wrote an article for Neptune, the annual magazine of the Cambridge University 
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/neptune2026/thumbnail.png" title="Neptune 2026 article" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/neptune2026/thumbnail.jpg" title="Neptune 2026 article" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
