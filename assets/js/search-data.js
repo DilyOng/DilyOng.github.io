@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "Highlighted academic talks and conference presentations.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "nav-projects",
           title: "Projects",
           description: "",
@@ -30,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outreach/";
           },
-        },{id: "nav-for-fun",
-          title: "For Fun",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/forfun/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -44,19 +44,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-for-fun",
+          title: "For Fun",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/forfun/";
+          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "I am the main author of unimpeded and a contributing author of anesthetic.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
-          },
-        },{id: "nav-talks",
-          title: "Talks",
-          description: "Highlighted academic talks and conference presentations.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/talks/";
           },
         },{id: "nav-people",
           title: "People",
