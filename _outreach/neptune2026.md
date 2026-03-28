@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cambridge University Astronomical Society Neptune 2026
-description: "Observing the Night Sky at the Institute of Astronomy"
+description: Author of an article for Neptune, the annual magazine of the Cambridge University Astronomical Society
 img: assets/img/neptune2026/thumbnail.png
 importance: 2
 ---
