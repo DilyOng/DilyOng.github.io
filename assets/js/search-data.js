@@ -80,7 +80,12 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-on-arxiv-the-bayesian-view-of-desi-dr2-evidence-and-tension-in-a-combined-analysis-with-cmb-and-supernovae-across-cosmological-models-a-bayesian-reanalysis-of-desi-dr2-data-showing-that-the-preference-for-extended-dark-energy-models-is-eliminated-when-using-planck-cmb-data-alone-arxiv-2603-05472",
           title: 'New paper on arXiv: The Bayesian view of DESI DR2: Evidence and tension...',
           description: "",
-          section: "News",},{id: "outreach-stargazing",
+          section: "News",},{id: "outreach-cambridge-university-astronomical-society-neptune-2026",
+          title: 'Cambridge University Astronomical Society Neptune 2026',
+          description: "Observing the Night Sky at the Institute of Astronomy",
+          section: "Outreach",handler: () => {
+              window.location.href = "/outreach/neptune2026/";
+            },},{id: "outreach-stargazing",
           title: 'Stargazing',
           description: "Observations at the Institute of Astronomy",
           section: "Outreach",handler: () => {
