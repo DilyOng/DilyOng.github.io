@@ -4,7 +4,7 @@ permalink: /talks/
 title: Talks & Conferences
 description: Highlighted academic talks and conference presentations.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <div class="talks">

@@ -4,7 +4,6 @@ title: Stargazing
 description: Observations at the Institute of Astronomy
 img: assets/img/stargazing/telescope.png
 importance: 1
-category: fun
 ---
 
 As a Physics PhD student at the University of Cambridge, I have the privilege of using the department's astronomical telescope. I host stargazing evenings and invite my friends.
