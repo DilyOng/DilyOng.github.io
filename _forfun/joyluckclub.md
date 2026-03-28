@@ -3,8 +3,7 @@ layout: page
 title: Joy Luck Club
 description: Committee Member at the Cambridge University Joy Luck Club (2025-2026)
 img: assets/img/joyluckclub/logo.png
-importance: 3
-category: fun
+importance: 2
 ---
 
 I am a Committee Member of the [Cambridge University Joy Luck Club](https://www.cambridgesu.co.uk/organisation/20427/) (2025-2026). Follow us on [Instagram](https://www.instagram.com/cu_joyluckclub/).

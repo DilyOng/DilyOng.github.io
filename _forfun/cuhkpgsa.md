@@ -3,8 +3,7 @@ layout: page
 title: CUHKPGSA
 description: Social Officer at the Cambridge University Hong Kong Postgraduate Scholars Association (2025-2026)
 img: assets/img/cuhkpgsa/social_officer.jpg
-importance: 2
-category: fun
+importance: 1
 ---
 
 I am a Social Officer at the Cambridge University Hong Kong Postgraduate Scholars Association ([CUHKPGSA](https://www.cambridgesu.co.uk/organisation/8771/)) for 2025-2026. Follow us on [Instagram](https://www.instagram.com/cuhkpgsa/).

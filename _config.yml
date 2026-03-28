@@ -154,6 +154,8 @@ collections:
     output: true
   outreach:
     output: true
+  forfun:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
