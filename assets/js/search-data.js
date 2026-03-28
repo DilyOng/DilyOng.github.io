@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outreach/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "I am the main author of unimpeded and a contributing author of anesthetic.",
+        },{id: "nav-for-fun",
+          title: "For Fun",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/forfun/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -43,6 +43,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-repositories",
+          title: "Repositories",
+          description: "I am the main author of unimpeded and a contributing author of anesthetic.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
           },
         },{id: "nav-talks",
           title: "Talks",
@@ -74,6 +81,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "forfun-cuhkpgsa",
+          title: 'CUHKPGSA',
+          description: "Social Officer at the Cambridge University Hong Kong Postgraduate Scholars Association (2025-2026)",
+          section: "Forfun",handler: () => {
+              window.location.href = "/forfun/cuhkpgsa/";
+            },},{id: "forfun-joy-luck-club",
+          title: 'Joy Luck Club',
+          description: "Committee Member at the Cambridge University Joy Luck Club (2025-2026)",
+          section: "Forfun",handler: () => {
+              window.location.href = "/forfun/joyluckclub/";
             },},{id: "news-new-paper-on-arxiv-signatures-of-star-formation-inside-galactic-outflows-examining-local-galaxies-with-powerful-agn-to-find-evidence-for-star-formation-within-galactic-outflows-arxiv-2512-10924",
           title: 'New paper on arXiv: Signatures of star formation inside galactic outflows - examining...',
           description: "",
@@ -95,16 +112,6 @@ ninja.data = [{
           description: "A Python package for processing nested sampling and MCMC chains",
           section: "Projects",handler: () => {
               window.location.href = "/projects/anesthetic/";
-            },},{id: "projects-cuhkpgsa",
-          title: 'CUHKPGSA',
-          description: "Social Officer at the Cambridge University Hong Kong Postgraduate Scholars Association (2025-2026)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/cuhkpgsa/";
-            },},{id: "projects-joy-luck-club",
-          title: 'Joy Luck Club',
-          description: "Committee Member at the Cambridge University Joy Luck Club (2025-2026)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/joyluckclub/";
             },},{id: "projects-star-formation-in-galactic-outflows",
           title: 'Star Formation in Galactic Outflows',
           description: "Evidence for star formation inside galactic outflows from X-shooter observations",
