@@ -44,8 +44,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-talks-amp-conferences",
-          title: "Talks &amp; Conferences",
+        },{id: "nav-talks",
+          title: "Talks",
           description: "Highlighted academic talks and conference presentations.",
           section: "Navigation",
           handler: () => {
@@ -82,7 +82,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "outreach-cambridge-university-astronomical-society-neptune-2026",
           title: 'Cambridge University Astronomical Society Neptune 2026',
-          description: "Observing the Night Sky at the Institute of Astronomy",
+          description: "Author of an article for Neptune, the annual magazine of the Cambridge University Astronomical Society",
           section: "Outreach",handler: () => {
               window.location.href = "/outreach/neptune2026/";
             },},{id: "outreach-stargazing",
