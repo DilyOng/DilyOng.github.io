@@ -5,7 +5,7 @@ description: A public nested sampling database for Bayesian cosmology
 img: assets/img/unimpeded/flowchart.png
 importance: 1
 category: work
-related_publications: true
+related_publications: ong2026bayesian_desi_dr2, ong2025bayesian, ong2025unimpeded, ong2025unimpeded_software
 ---
 
 `unimpeded` is a public Python library and data repository created to accelerate and democratize research in Bayesian cosmology. It addresses the significant computational expense of calculating Bayesian evidence by providing a massive, pre-computed database of nested sampling results for dozens of cosmological model and dataset combinations. This allows any researcher to perform sophisticated model comparison and tension analysis without requiring access to high-performance computing resources.
@@ -43,6 +43,3 @@ This project significantly lowers the barrier to entry for advanced cosmological
 
 - **GitHub Repository:** [https://github.com/handley-lab/unimpeded](https://github.com/handley-lab/unimpeded)
 
-## References
-
-- Ong, D. D. Y., & Handley, W. (2025). **unimpeded: A Public Nested Sampling Database for Bayesian Cosmology.** [arXiv:2511.05470](https://arxiv.org/abs/2511.05470)
