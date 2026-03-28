@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-outreach",
+          title: "Outreach",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/outreach/";
+          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "I am the main author of unimpeded and a contributing author of anesthetic.",
@@ -30,19 +37,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-talks-amp-conferences",
-          title: "Talks &amp; Conferences",
-          description: "Highlighted academic talks and conference presentations.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/talks/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-talks-amp-conferences",
+          title: "Talks &amp; Conferences",
+          description: "Highlighted academic talks and conference presentations.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
           },
         },{id: "nav-people",
           title: "People",
@@ -73,7 +80,12 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-on-arxiv-the-bayesian-view-of-desi-dr2-evidence-and-tension-in-a-combined-analysis-with-cmb-and-supernovae-across-cosmological-models-a-bayesian-reanalysis-of-desi-dr2-data-showing-that-the-preference-for-extended-dark-energy-models-is-eliminated-when-using-planck-cmb-data-alone-arxiv-2603-05472",
           title: 'New paper on arXiv: The Bayesian view of DESI DR2: Evidence and tension...',
           description: "",
-          section: "News",},{id: "projects-anesthetic",
+          section: "News",},{id: "outreach-stargazing",
+          title: 'Stargazing',
+          description: "Observations at the Institute of Astronomy",
+          section: "Outreach",handler: () => {
+              window.location.href = "/outreach/stargazing/";
+            },},{id: "projects-anesthetic",
           title: 'anesthetic',
           description: "A Python package for processing nested sampling and MCMC chains",
           section: "Projects",handler: () => {
@@ -93,11 +105,6 @@ ninja.data = [{
           description: "Evidence for star formation inside galactic outflows from X-shooter observations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/starformation/";
-            },},{id: "projects-stargazing",
-          title: 'Stargazing',
-          description: "Observations at the Institute of Astronomy",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/stargazing/";
             },},{id: "projects-unimpeded",
           title: 'unimpeded',
           description: "A public nested sampling database for Bayesian cosmology",
