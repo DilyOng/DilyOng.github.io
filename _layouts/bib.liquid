@@ -351,33 +351,41 @@
               >
             </a>
           {% endif %}
+          {% assign cited_by_count = 0 %}
+          {% assign cited_by_url = '' %}
           {% if site.enable_publication_badges.inspirehep and entry_has_inspirehep_badge %}
-            <a
-              href="https://inspirehep.net/literature/{{ entry.inspirehep_id }}"
-              aria-label="Inspirehep link"
-              role="button"
-            >
-              <img
-                src="https://img.shields.io/badge/inspire-{% inspirehep_citations entry.inspirehep_id %}-001628?logo=inspire&logoColor=001628&labelColor=beige"
-                alt="{% inspirehep_citations entry.inspirehep_id %} InspireHEP citations"
-              >
-            </a>
+            {% capture inspire_raw %}{% inspirehep_citations entry.inspirehep_id %}{% endcapture %}
+            {% assign inspire_raw_stripped = inspire_raw | strip %}
+            {% if inspire_raw_stripped != 'N/A' %}
+              {% assign inspire_count = inspire_raw_stripped | plus: 0 %}
+              {% if inspire_count > cited_by_count %}
+                {% assign cited_by_count = inspire_count %}
+                {% assign cited_by_url = 'https://inspirehep.net/literature/' | append: entry.inspirehep_id %}
+              {% endif %}
+            {% endif %}
           {% endif %}
           {% if entry_has_ads_badge %}
             {% capture ads_count %}{% ads_citations entry.arxiv %}{% endcapture %}
             {% assign ads_count_stripped = ads_count | strip %}
-            {% if ads_count_stripped != '0' and ads_count_stripped != 'N/A' %}
-              <a
-                href="https://ui.adsabs.harvard.edu/search/q=arXiv:{{ entry.arxiv }}"
-                aria-label="NASA ADS link"
-                role="button"
-              >
-                <img
-                  src="https://img.shields.io/badge/Cited_by_{{ ads_count_stripped }}-purple?labelColor=beige"
-                  alt="Cited by {{ ads_count_stripped }} (NASA ADS)"
-                >
-              </a>
+            {% if ads_count_stripped != 'N/A' %}
+              {% assign ads_count_int = ads_count_stripped | plus: 0 %}
+              {% if ads_count_int > cited_by_count %}
+                {% assign cited_by_count = ads_count_int %}
+                {% assign cited_by_url = 'https://ui.adsabs.harvard.edu/search/q=arXiv:' | append: entry.arxiv %}
+              {% endif %}
             {% endif %}
+          {% endif %}
+          {% if cited_by_count > 0 %}
+            <a
+              href="{{ cited_by_url }}"
+              aria-label="Citations link"
+              role="button"
+            >
+              <img
+                src="https://img.shields.io/badge/Cited_by_{{ cited_by_count }}-purple?labelColor=beige"
+                alt="Cited by {{ cited_by_count }}"
+              >
+            </a>
           {% endif %}
         </div>
       {% endif %}
