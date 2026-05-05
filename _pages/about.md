@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Final-year PhD Student · University of Cambridge
+subtitle: University of Cambridge
 
 profile:
   align: right
