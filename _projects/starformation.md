@@ -53,4 +53,4 @@ Out of seven galaxies with clearly detected outflows, we found:
 - **Additional candidates** showing signatures consistent with outflow-driven star formation
 - Outflowing components predominantly located in the star-forming region of BPT diagrams, particularly in [SII] and [OI] diagnostics which are less affected by metallicity effects
 
-This work provides observational support for theoretical predictions of star formation in galactic outflows, potentially representing a previously unrecognized mode of star formation in the universe.
+This work provides observational support for theoretical predictions of star formation in galactic outflows, potentially representing a previously unrecognized mode of star formation in the universe {% cite ong2025starformation %}.
