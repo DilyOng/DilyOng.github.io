@@ -91,14 +91,14 @@ ninja.data = [{
           description: "Committee Member at the Cambridge University Joy Luck Club (2025-2026)",
           section: "Forfun",handler: () => {
               window.location.href = "/forfun/joyluckclub/";
-            },},{id: "news-new-paper-on-arxiv-signatures-of-star-formation-inside-galactic-outflows-examining-local-galaxies-with-powerful-agn-to-find-evidence-for-star-formation-within-galactic-outflows-arxiv-2512-10924",
-          title: 'New paper on arXiv: Signatures of star formation inside galactic outflows - examining...',
-          description: "",
-          section: "News",},{id: "news-new-paper-on-arxiv-the-bayesian-view-of-desi-dr2-evidence-and-tension-in-a-combined-analysis-with-cmb-and-supernovae-across-cosmological-models-a-bayesian-reanalysis-of-desi-dr2-data-showing-that-the-preference-for-extended-dark-energy-models-is-eliminated-when-using-planck-cmb-data-alone-arxiv-2603-05472",
+            },},{id: "news-new-paper-on-arxiv-the-bayesian-view-of-desi-dr2-evidence-and-tension-in-a-combined-analysis-with-cmb-and-supernovae-across-cosmological-models-a-bayesian-reanalysis-of-desi-dr2-data-showing-that-the-preference-for-extended-dark-energy-models-is-eliminated-when-using-planck-cmb-data-alone-arxiv-2603-05472",
           title: 'New paper on arXiv: The Bayesian view of DESI DR2: Evidence and tension...',
           description: "",
           section: "News",},{id: "news-invited-guest-speaker-two-week-fully-funded-academic-visit-to-the-university-of-tokyo",
           title: 'Invited Guest Speaker: two-week fully funded academic visit to the University of Tokyo....',
+          description: "",
+          section: "News",},{id: "news-elected-a-fellow-of-the-royal-astronomical-society",
+          title: 'Elected a Fellow of the Royal Astronomical Society.',
           description: "",
           section: "News",},{id: "outreach-cambridge-university-astronomical-society-neptune-2026",
           title: 'Cambridge University Astronomical Society Neptune 2026',
