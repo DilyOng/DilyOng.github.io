@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outreach/";
           },
+        },{id: "nav-articles",
+          title: "Articles",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/articles/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -76,7 +83,12 @@ ninja.data = [{
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "books-the-godfather",
+      },{id: "articles-cambridge-university-astronomical-society-neptune-2026",
+          title: 'Cambridge University Astronomical Society Neptune 2026',
+          description: "Author of an article for Neptune, the annual magazine of the Cambridge University Astronomical Society",
+          section: "Articles",handler: () => {
+              window.location.href = "/articles/neptune2026/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
@@ -100,12 +112,7 @@ ninja.data = [{
           section: "News",},{id: "news-elected-a-fellow-of-the-royal-astronomical-society",
           title: 'Elected a Fellow of the Royal Astronomical Society.',
           description: "",
-          section: "News",},{id: "outreach-cambridge-university-astronomical-society-neptune-2026",
-          title: 'Cambridge University Astronomical Society Neptune 2026',
-          description: "Author of an article for Neptune, the annual magazine of the Cambridge University Astronomical Society",
-          section: "Outreach",handler: () => {
-              window.location.href = "/outreach/neptune2026/";
-            },},{id: "outreach-stargazing",
+          section: "News",},{id: "outreach-stargazing",
           title: 'Stargazing',
           description: "Observations at the Institute of Astronomy",
           section: "Outreach",handler: () => {
