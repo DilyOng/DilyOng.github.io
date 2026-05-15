@@ -83,7 +83,12 @@ ninja.data = [{
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "articles-cambridge-university-astronomical-society-neptune-2026",
+      },{id: "articles-bluesci-issue-64-the-loneliest-places-in-the-universe",
+          title: 'BlueSci Issue 64 — The Loneliest Places in the Universe',
+          description: "Contributing author to the 64th Issue of BlueSci, the University of Cambridge&#39;s longest-running science communication magazine",
+          section: "Articles",handler: () => {
+              window.location.href = "/articles/bluesci64/";
+            },},{id: "articles-cambridge-university-astronomical-society-neptune-2026",
           title: 'Cambridge University Astronomical Society Neptune 2026',
           description: "Author of an article for Neptune, the annual magazine of the Cambridge University Astronomical Society",
           section: "Articles",handler: () => {
