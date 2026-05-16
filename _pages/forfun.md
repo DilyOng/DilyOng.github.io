@@ -3,7 +3,7 @@ layout: page
 title: For Fun
 permalink: /forfun/
 nav: true
-nav_order: 6
+nav_order: 7
 horizontal: false
 ---
 

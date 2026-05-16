@@ -3,7 +3,7 @@ layout: page
 title: Articles
 permalink: /articles/
 nav: true
-nav_order: 6
+nav_order: 4
 horizontal: false
 ---
 

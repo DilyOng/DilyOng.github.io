@@ -4,7 +4,7 @@ permalink: /people/
 title: People
 description: The Handley Research Group
 nav: true
-nav_order: 8
+nav_order: 9
 ---
 
 I am a current member of [The Handley Research Group](https://handley-lab.co.uk/) led by [Dr Will Handley](https://www.kicc.cam.ac.uk/directory/wh260), based in the Institute of Astronomy at the University of Cambridge. Our research group focuses on Bayesian statistics, machine learning, and data analysis for astrophysics, cosmology and high energy physics.

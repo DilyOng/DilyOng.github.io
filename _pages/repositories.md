@@ -4,7 +4,7 @@ permalink: /repositories/
 title: Repositories
 description: "I am the main author of unimpeded and a contributing author of anesthetic."
 nav: true
-nav_order: 7
+nav_order: 8
 ---
 
 {% if false and site.data.repositories.github_users %}
