@@ -6,7 +6,7 @@ img: assets/img/stargazing/telescope.png
 importance: 1
 ---
 
-As a Physics PhD student at the University of Cambridge, I have the privilege of using the department's astronomical telescope. I host stargazing evenings and invite my friends.
+As a Physics PhD student at the University of Cambridge, I have the privilege of using the department's astronomical telescope. I host stargazing evenings and invite my friends. I have also written an article reflecting on my experiences observing with this 16-inch telescope, published in [Neptune 2026]({{ '/articles/neptune2026/' | relative_url }}), the annual magazine of the Cambridge University Astronomical Society.
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
