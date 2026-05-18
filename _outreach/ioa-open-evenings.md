@@ -16,7 +16,7 @@ I operate the Institute's 12.5-inch Dobsonian telescope to show visitors Jupiter
     </div>
 </div>
 <div class="caption">
-    The 12.5-inch Dobsonian telescope on the grounds of the Institute of Astronomy, University of Cambridge. Red lighting is used throughout the site to preserve dark-adapted night vision.
+    The 12.5-inch Dobsonian telescope on the grounds of the Institute of Astronomy, University of Cambridge.
 </div>
 
 Alongside the telescope, I use a hand-held green laser pointer to guide visitors around the night sky, tracing out constellations and pointing to individual stars and planets while describing what they are seeing. Green laser pointers are the tool of choice for stargazing because, at equal power, green light appears far brighter to the human eye at night than light of most other colours — the human eye is most sensitive to wavelengths near the green part of the visible spectrum.
@@ -28,4 +28,15 @@ Alongside the telescope, I use a hand-held green laser pointer to guide visitors
 </div>
 <div class="caption">
     Using a green laser pointer to indicate a star while describing the night sky to visitors at the Institute of Astronomy.
+</div>
+
+Throughout the IoA site, ambient illumination is provided exclusively in red. The rod cells of the human retina — responsible for vision in low light — are far less sensitive to red wavelengths than to the shorter wavelengths of blue and green light. Red lighting therefore allows the eye to remain dark-adapted, preserving its ability to perceive faint sources of light in the night sky, such as dim stars and the subtle details visible through a telescope eyepiece.
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ioa-open-evenings/northumberland.jpg" title="The historic Northumberland telescope under red ambient lighting" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The historic Northumberland telescope at the Institute of Astronomy, University of Cambridge, photographed under the red ambient lighting used throughout the site to preserve dark-adapted night vision.
 </div>
