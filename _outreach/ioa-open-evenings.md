@@ -18,3 +18,14 @@ I operate the Institute's 12.5-inch Dobsonian telescope to show visitors Jupiter
 <div class="caption">
     The 12.5-inch Dobsonian telescope on the grounds of the Institute of Astronomy, University of Cambridge. Red lighting is used throughout the site to preserve dark-adapted night vision.
 </div>
+
+Alongside the telescope, I use a hand-held green laser pointer to guide visitors around the night sky, tracing out constellations and pointing to individual stars and planets while describing what they are seeing. Green laser pointers are the tool of choice for stargazing because, at equal power, green light appears far brighter to the human eye at night than light of most other colours — the human eye is most sensitive to wavelengths near the green part of the visible spectrum.
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ioa-open-evenings/green-laser.jpg" title="Using a green laser pointer to indicate a star while describing the night sky to visitors" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Using a green laser pointer to indicate a star while describing the night sky to visitors at the Institute of Astronomy.
+</div>
