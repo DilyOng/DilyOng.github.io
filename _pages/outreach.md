@@ -7,6 +7,10 @@ nav_order: 6
 horizontal: false
 ---
 
+I actively take part in outreach, especially with young children, because I believe it provides inspiration to the next generation. I am who I am today — a cosmologist happily doing research at the University of Cambridge — because outreach reached me at a point in my life when I was younger.
+
+Below are some of the outreach activities I have participated in.
+
 <!-- pages/outreach.md -->
 <div class="projects">
 {% assign sorted_outreach = site.outreach | sort: "importance" %}
