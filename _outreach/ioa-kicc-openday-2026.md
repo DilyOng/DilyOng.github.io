@@ -6,7 +6,7 @@ img: assets/img/ioa-kicc-openday-2026/headline.jpg
 importance: 2
 ---
 
-On 21 March 2026, I was a student volunteer at the Open Day for the [Institute of Astronomy](https://www.ast.cam.ac.uk/) and the [Kavli Institute for Cosmology](https://www.kicc.cam.ac.uk/) at the University of Cambridge. I was responsible for the virtual reality booth, where visitors could explore the Universe in immersive 3D using [Gaia Sky](https://gaiasky.space/).
+I was a student volunteer at the Open Day for the [Institute of Astronomy](https://www.ast.cam.ac.uk/) and the [Kavli Institute for Cosmology](https://www.kicc.cam.ac.uk/) at the University of Cambridge on 21 March 2026. I was responsible for the virtual reality booth, where visitors could explore the Universe in immersive 3D using [Gaia Sky](https://gaiasky.space/).
 
 At the booth, visitors of all ages put on a VR headset and travelled from the surface of the Earth, past the planets of the Solar System, and out into the Milky Way and beyond — a vivid demonstration of the scale and structure of the Universe.
 
