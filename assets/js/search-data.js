@@ -125,6 +125,11 @@ ninja.data = [{
           description: "Student volunteer at the Institute of Astronomy and Kavli Institute for Cosmology Open Day, University of Cambridge",
           section: "Outreach",handler: () => {
               window.location.href = "/outreach/ioa-kicc-openday-2026/";
+            },},{id: "outreach-public-open-evenings-at-the-ioa",
+          title: 'Public Open Evenings at the IoA',
+          description: "Student volunteer at the Institute of Astronomy&#39;s weekly Public Open Evenings, University of Cambridge",
+          section: "Outreach",handler: () => {
+              window.location.href = "/outreach/ioa-open-evenings/";
             },},{id: "outreach-stargazing",
           title: 'Stargazing',
           description: "Observations at the Institute of Astronomy",
