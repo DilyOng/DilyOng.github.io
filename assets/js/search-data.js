@@ -120,7 +120,12 @@ ninja.data = [{
           section: "News",},{id: "news-accepted-for-two-contributed-talks-in-the-national-astronomical-meeting-nam-2026",
           title: 'Accepted for two contributed talks in the National Astronomical Meeting (NAM) 2026.',
           description: "",
-          section: "News",},{id: "outreach-stargazing",
+          section: "News",},{id: "outreach-ioa-kicc-open-day-2026",
+          title: 'IoA + KICC Open Day 2026',
+          description: "Student volunteer at the Institute of Astronomy and Kavli Institute for Cosmology Open Day, University of Cambridge",
+          section: "Outreach",handler: () => {
+              window.location.href = "/outreach/ioa-kicc-openday-2026/";
+            },},{id: "outreach-stargazing",
           title: 'Stargazing',
           description: "Observations at the Institute of Astronomy",
           section: "Outreach",handler: () => {
