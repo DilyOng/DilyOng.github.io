@@ -42,4 +42,3 @@ This project significantly lowers the barrier to entry for advanced cosmological
 ## Resources
 
 - **GitHub Repository:** [https://github.com/handley-lab/unimpeded](https://github.com/handley-lab/unimpeded)
-

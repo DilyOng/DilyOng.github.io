@@ -12,7 +12,9 @@ horizontal: false
 {% assign sorted_articles = site.articles | sort: "importance" %}
 
   <!-- Generate cards for each article item -->
-  {% if page.horizontal %}
+
+{% if page.horizontal %}
+
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_articles %}
