@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BlueSci Issue 64 — The Loneliest Places in the Universe
+title: BlueSci Issue 63 — The Loneliest Places in the Universe
 description: Contributing author to the 64th Issue of BlueSci, the University of Cambridge's longest-running science communication magazine
 img: assets/img/bluesci64/thumbnail.jpg
 importance: 1
