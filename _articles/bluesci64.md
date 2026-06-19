@@ -10,6 +10,8 @@ I am a contributing author to [Issue 64 of BlueSci](https://www.bluesci.co.uk/is
 
 <a href="https://www.bluesci.co.uk/issue/" target="_blank">Official link to Cambridge BlueSci Issue 63</a>
 
+<a href="{{ 'assets/img/bluesci64/the-loneliest-places-in-the-universe.pdf' | relative_url }}" target="_blank">Download my Article</a>
+
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bluesci64/thumbnail.jpg" title="BlueSci Issue 64 — The Loneliest Places in the Universe" class="img-fluid rounded z-depth-1" %}
