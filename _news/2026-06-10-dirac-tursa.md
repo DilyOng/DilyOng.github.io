@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded a **DiRAC discretionary allocation** as **Principal Investigator** on **Tursa** (UKRI STFC DiRAC HPC Facility) to train machine learning emulators.
+**Principal Investigator (PI)** on a **DiRAC discretionary allocation** on Tursa, **UKRI** STFC DiRAC **High Performance Computer** Facility, for training machine learning emulators.
