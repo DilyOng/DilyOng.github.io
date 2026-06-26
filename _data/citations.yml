@@ -1,23 +1,27 @@
 metadata:
-  last_updated: '2026-06-19'
+  last_updated: '2026-06-26'
 papers:
   VQCtcUYAAAAJ:2osOgNQ5qMEC:
-    citations: 19
+    citations: 3
     title: 'The Bayesian view of DESI DR2: Evidence and tension in a combined analysis with CMB and supernovae across cosmological models'
     year: '2026'
   VQCtcUYAAAAJ:9yKSN-GCB0IC:
-    citations: 2
+    citations: 0
     title: Signatures of star formation inside galactic outflows
     year: '2025'
   VQCtcUYAAAAJ:d1gkVwhDpl0C:
-    citations: 5
+    citations: 0
     title: ': A Public Nested Sampling Database for Bayesian Cosmology'
     year: '2025'
+  VQCtcUYAAAAJ:qjMakFHDy7sC:
+    citations: 1
+    title: 'The Bayesian view of DESI DR2 with unimpeded: Evidence and tension in a combined analysis with CMB and supernovae across cosmological models'
+    year: '2026'
   VQCtcUYAAAAJ:u-x6o8ySG0sC:
-    citations: 9
+    citations: 0
     title: ': A Public Grid of Nested Sampling Chains for Cosmological Model Comparison and Tension Analysis'
     year: '2025'
   VQCtcUYAAAAJ:u5HHmVD_uO8C:
-    citations: 22
+    citations: 5
     title: A Bayesian Perspective on Evidence for Evolving Dark Energy
     year: '2025'
