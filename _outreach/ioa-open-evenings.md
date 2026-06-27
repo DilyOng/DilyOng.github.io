@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Public Open Evenings at the IoA
+title: Public Open Evening at the IoA
 description: Student volunteer at the Institute of Astronomy's weekly Public Open Evenings, University of Cambridge
 img: assets/img/ioa-open-evenings/dobsonian.jpg
 importance: 3
