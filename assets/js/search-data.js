@@ -85,7 +85,7 @@ ninja.data = [{
         },
       },{id: "articles-bluesci-issue-63-the-loneliest-places-in-the-universe",
           title: 'BlueSci Issue 63 — The Loneliest Places in the Universe',
-          description: "Contributing author to the 64th Issue of BlueSci, the University of Cambridge&#39;s longest-running science communication magazine",
+          description: "Contributing author to the 63rd Issue of BlueSci, the University of Cambridge&#39;s longest-running science communication magazine",
           section: "Articles",handler: () => {
               window.location.href = "/articles/bluesci64/";
             },},{id: "articles-cambridge-university-astronomical-society-neptune-2026",
