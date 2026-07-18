@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Principal Investigator (PI)** of a **UKRI-funded** **DiRAC discretionary allocation** on Tursa (STFC DiRAC HPC Facility) to train machine learning emulators.
+**Principal Investigator (PI)**, awarded **STFC-funded UKRI DiRAC HPC discretionary project** on Tursa to train machine learning emulators (**10,000 GPU hours**).
