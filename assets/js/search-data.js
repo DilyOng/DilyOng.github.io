@@ -83,7 +83,12 @@ ninja.data = [{
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "articles-bluesci-issue-63-the-loneliest-places-in-the-universe",
+      },{id: "articles-bluesci-issue-64-the-universe-as-a-story-we-keep-rewriting",
+          title: 'BlueSci Issue 64 — The Universe as a Story We Keep Rewriting',
+          description: "Contributing author to the 64th Issue of BlueSci, the University of Cambridge&#39;s longest-running science communication magazine",
+          section: "Articles",handler: () => {
+              window.location.href = "/articles/bluesci-issue64/";
+            },},{id: "articles-bluesci-issue-63-the-loneliest-places-in-the-universe",
           title: 'BlueSci Issue 63 — The Loneliest Places in the Universe',
           description: "Contributing author to the 63rd Issue of BlueSci, the University of Cambridge&#39;s longest-running science communication magazine",
           section: "Articles",handler: () => {
