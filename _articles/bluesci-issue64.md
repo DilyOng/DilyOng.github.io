@@ -17,7 +17,7 @@ importance: 1
             loop=true
             controls=true
             playsinline=true
-            poster="assets/img/bluesci-issue64/thumbnail.jpg"
+            poster="assets/img/bluesci-issue64/preview.jpg"
         %}
     </div>
 </div>
