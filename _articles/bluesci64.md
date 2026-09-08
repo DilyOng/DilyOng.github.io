@@ -3,7 +3,7 @@ layout: page
 title: BlueSci Issue 63 — The Loneliest Places in the Universe
 description: Contributing author to the 63rd Issue of BlueSci, the University of Cambridge's longest-running science communication magazine
 img: assets/img/bluesci64/thumbnail.jpg
-importance: 1
+importance: 2
 ---
 
 I am a contributing author to [Issue 63 of BlueSci](https://www.bluesci.co.uk/issue/), the University of Cambridge's longest-running science communication magazine. My article, **"The Loneliest Places in the Universe — Cosmic Supervoids"** (page 41), introduces a general audience to cosmic supervoids: the vast, near-empty regions that span hundreds of millions of light-years across the large-scale structure of the Universe. The piece explores how these underdense regions form, how they are observed, and why they offer a powerful and complementary probe of dark energy and the expansion history of the cosmos.
