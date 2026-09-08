@@ -8,9 +8,9 @@ importance: 1
 
 I am a contributing author to [Issue 64 of BlueSci](https://www.bluesci.co.uk/issue/), the University of Cambridge's longest-running science communication magazine. My article, **"The Universe as a Story We Keep Rewriting"** (pages 20–21), asks what it means that cosmology has never been a settled account of the cosmos, but one we have revised in every century we have been able to look up and measure.
 
-> From Ptolemy to Einstein, the story of our Universe has changed dramatically. But how do modern telescopes and new statistical models aid — or complicate — the work of cosmologists?
+> Every time we look up at the night sky, we are looking into its past.
 
-Every time we look at the night sky, we are looking into its past. Light takes time to travel, so every patch of sky is a different chapter in the river of cosmic history: the light we receive from Andromeda, our nearest major galactic neighbour, left it roughly 2.5 million years ago. The article follows how the narrative built from that light has been rewritten again and again — from constellations traced with the naked eye, through Ptolemy's geocentric Universe and its ingenious system of circles upon circles, to Copernicus placing the Sun at the centre and turning the baffling backwards loop of Mars into a simple matter of perspective. That shift was never only a scientific one: Galileo was condemned and placed under house arrest in 1633 for defending it, because heliocentrism unsettled an inherited story about humanity's place in the cosmos.
+Light takes time to travel, so every patch of sky is a different chapter in the river of cosmic history: the light we receive from Andromeda, our nearest major galactic neighbour, left it roughly 2.5 million years ago. The article follows how the narrative built from that light has been rewritten again and again — from constellations traced with the naked eye, through Ptolemy's geocentric Universe and its ingenious system of circles upon circles, to Copernicus placing the Sun at the centre and turning the baffling backwards loop of Mars into a simple matter of perspective. That shift was never only a scientific one: Galileo was condemned and placed under house arrest in 1633 for defending it, because heliocentrism unsettled an inherited story about humanity's place in the cosmos.
 
 In the 20th century, Einstein's general relativity rewrote the plot again. The Universe stopped being a fixed stage on which stars and planets moved and became a dynamical spacetime whose geometry could evolve — and observations of distant galaxies soon revealed that this spacetime is expanding, with supernovae later adding a stranger twist still: the expansion is accelerating, driven by what we now call dark energy.
 
@@ -42,6 +42,6 @@ The piece closes on the question at the heart of my PhD research: I rank eight a
 
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bluesci-issue64/thumbnail.jpg" title="BlueSci Issue 64 — The Universe as a Story We Keep Rewriting" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bluesci-issue64/thumbnail.jpg" title="BlueSci Issue 64 — The Universe as a Story We Keep Rewriting" alt="Pages 20 and 21 of BlueSci Issue 64, The Universe as a Story We Keep Rewriting" class="img-fluid rounded z-depth-1" avoid_scaling=true zoomable=true %}
     </div>
 </div>
