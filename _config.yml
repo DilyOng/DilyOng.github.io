@@ -316,6 +316,8 @@ filtered_bibtex_keywords:
     award_name,
     bibtex_show,
     blog,
+    cited_by,
+    cited_by_url,
     code,
     google_scholar_id,
     html,

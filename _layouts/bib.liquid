@@ -375,6 +375,15 @@
               {% endif %}
             {% endif %}
           {% endif %}
+          {% comment %}
+            Manual fallback for a paper no live citation API covers (e.g. not indexed
+            by InspireHEP). Only applies to entries that declare both fields, and only
+            when InspireHEP and ADS returned nothing.
+          {% endcomment %}
+          {% if cited_by_count == 0 and entry.cited_by and entry.cited_by_url %}
+            {% assign cited_by_count = entry.cited_by | plus: 0 %}
+            {% assign cited_by_url = entry.cited_by_url %}
+          {% endif %}
           {% if cited_by_count > 0 %}
             <a
               href="{{ cited_by_url }}"
