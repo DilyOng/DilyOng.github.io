@@ -41,8 +41,22 @@ module Jekyll
         response = http.request(request)
         data = JSON.parse(response.body)
 
+        # Surface the real reason when ADS does not return a result set, so a
+        # bad token / rate limit / empty match is distinguishable in build logs.
+        docs = data.dig("response", "docs")
+        if docs.nil?
+          puts "Warning: ADS returned no result set for #{arxiv_id} (HTTP #{response.code}): #{response.body.to_s[0, 300]}"
+          ADSCitationsTag::Citations[arxiv_id] = "N/A"
+          return "N/A"
+        end
+        if docs.empty?
+          puts "Warning: ADS has no record matching arXiv:#{arxiv_id} (HTTP #{response.code})."
+          ADSCitationsTag::Citations[arxiv_id] = "N/A"
+          return "N/A"
+        end
+
         # Extract citation count from the JSON data
-        citation_count = data["response"]["docs"][0]["citation_count"].to_i
+        citation_count = docs[0]["citation_count"].to_i
 
         # Format the citation count for readability
         citation_count = Helpers.number_to_human(citation_count, format: '%n%u', precision: 2, units: { thousand: 'K', million: 'M', billion: 'B' })
