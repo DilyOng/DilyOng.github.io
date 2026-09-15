@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: "Total first-author citations: 77"
+description: "Total first-author citations: 78"
 nav: true
 nav_order: 2
 ---
