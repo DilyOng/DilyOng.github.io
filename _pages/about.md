@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a <a href='https://www.kicc.cam.ac.uk/staff/dily-ong'>final-year PhD student at the University of Cambridge</a> and a cosmologist specialising in the development of machine-learning-enhanced Bayesian inference tools to understand the structure, evolution, and composition of the universe, supervised by <a href='https://www.kicc.cam.ac.uk/directory/wh260'>Dr Will Handley</a>. Prior to joining Cambridge, I completed my undergraduate and master's degrees at Imperial College London.
+I am a final-year PhD student at the University of Cambridge and a cosmologist specialising in the development of machine-learning-enhanced Bayesian inference tools to understand the structure, evolution, and composition of the universe, supervised by <a href='https://www.kicc.cam.ac.uk/directory/wh260'>Dr Will Handley</a>. Prior to joining Cambridge, I completed my undergraduate and master's degrees at Imperial College London.
 
 Recently, I am developing [cosmulator](https://github.com/DilyOng/cosmulator) and [cosmocompare](https://github.com/DilyOng/cosmocompare), supported by two UKRI-funded DiRAC high-performance computing projects for which I am principal investigator. These tools accelerate cosmological inference with GPU-trained machine-learning emulators and enable fast Bayesian model comparison by importance sampling existing nested sampling chains.
 
