@@ -4,5 +4,6 @@ repo_description_lines_max: 2
 
 github_repos:
   - DilyOng/cosmulator
+  - DilyOng/cosmocompare
   - handley-lab/unimpeded
   - handley-lab/anesthetic
