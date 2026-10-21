@@ -31,7 +31,7 @@ Recently, I am developing [cosmulator](https://github.com/DilyOng/cosmulator) an
 
 I am the author of [unimpeded](https://github.com/handley-lab/unimpeded), a Python package that transforms months of supercomputer calculations into seconds on the laptops of cosmologists and astrophysicists, democratising access to expensive nested sampling chains, enabling cosmological model comparison and observational dataset analysis for researchers worldwide. I am also a contributing author of [anesthetic](https://github.com/handley-lab/anesthetic), a Python package for processing cosmological nested sampling and MCMC chains.
 
-**Total first-author citations:** 85
+**Total first-author citations:** 86
 
 **Research Interests:** Cosmology, Astrophysics, Bayesian Statistics, Machine Learning, Model Comparison, Tension Quantification, Nested Sampling
 
