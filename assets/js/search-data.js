@@ -172,6 +172,16 @@ ninja.data = [{
           description: "A Python package for processing nested sampling and MCMC chains",
           section: "Projects",handler: () => {
               window.location.href = "/projects/anesthetic/";
+            },},{id: "projects-cosmocompare",
+          title: 'cosmocompare',
+          description: "Bayesian model comparison by importance sampling of existing nested-sampling chains",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cosmocompare/";
+            },},{id: "projects-cosmulator",
+          title: 'cosmulator',
+          description: "Accelerating cosmological inference with JAX machine-learning emulators on GPU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cosmulator/";
             },},{id: "projects-star-formation-in-galactic-outflows",
           title: 'Star Formation in Galactic Outflows',
           description: "Evidence for star formation inside galactic outflows from X-shooter observations",
