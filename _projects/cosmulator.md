@@ -2,6 +2,7 @@
 layout: page
 title: cosmulator
 description: Accelerating cosmological inference with JAX machine-learning emulators on GPU
+img: assets/img/cosmulator/emulator_desy1.jpg
 importance: 0.5
 category: work
 related_publications: false
