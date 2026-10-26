@@ -11,6 +11,15 @@ I am the **principal investigator** of the **UKRI-funded DiRAC high-performance 
 
 `cosmulator` trains JAX normalising-flow emulators of nested-sampling posteriors on GPU, so a distribution can be resampled instantly for fast marginalisation and Bayesian evidence, and manages the resulting emulators (training, validation, storage and serving) across a grid of cosmological models and surveys.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cosmulator/emulator_desy1.jpg" title="Emulator corner plot" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: left;">
+    An emulator at work. A posterior emulator (orange), trained on the DiRAC Tursa supercomputer, reproduces the Dark Energy Survey Year 1 constraints on the cosmological parameters of the Ω<sub>k</sub>ΛCDM model from its full analysis (blue). The diagonal panels show the one-dimensional marginalised posteriors, and the inner and outer contours in the lower triangular panels correspond to the 68% (1σ) and 95% (2σ) credible regions.
+</div>
+
 ## Installation
 
 ```bash
