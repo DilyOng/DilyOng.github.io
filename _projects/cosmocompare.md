@@ -2,6 +2,7 @@
 layout: page
 title: cosmocompare
 description: Bayesian model comparison by importance sampling of existing nested-sampling chains
+img: assets/img/cosmocompare/prior_sensitivity.png
 importance: 0.75
 category: work
 related_publications: false
@@ -17,7 +18,7 @@ I am the **principal investigator** of the **UKRI-funded DiRAC high-performance 
     </div>
 </div>
 <div class="caption" style="text-align: left;">
-    Prior sensitivity of the evidence for evolving dark energy. The log Bayes factor ln <i>B</i> of w<sub>0</sub>w<sub>a</sub>CDM against ΛCDM is shown as the prior width is narrowed to a fraction <i>f</i> of its original width, for DESI DR2 + CMB alone and combined with the DES-SN5YR, DES-Dovekie and Union3 supernova samples. Each point is obtained by reweighting existing nested-sampling chains rather than rerunning them, and the shaded bands show the uncertainty on ln <i>B</i>. Positive values favour w<sub>0</sub>w<sub>a</sub>CDM and negative values favour ΛCDM. Open markers indicate unreliable reweighting (effective sample size below 1000 or Pareto <i>k̂</i> ≥ 0.7).
+    Prior sensitivity of the evidence for evolving dark energy. The log Bayes factor ln <i>B</i> of w<sub>0</sub>w<sub>a</sub>CDM against ΛCDM is shown as the prior width is narrowed to a fraction <i>f</i> of its original width about the ΛCDM point (w<sub>0</sub>, w<sub>a</sub>) = (−1, 0), for DESI DR2 + CMB alone and combined with the DES-SN5YR, DES-Dovekie and Union3 supernova samples. Each point is obtained by reweighting existing nested-sampling chains rather than rerunning them, and the shaded bands show the uncertainty on ln <i>B</i>. Positive values favour w<sub>0</sub>w<sub>a</sub>CDM and negative values favour ΛCDM. Open markers indicate unreliable reweighting (effective sample size below 1000 or Pareto <i>k̂</i> ≥ 0.7).
 </div>
 
 ## Installation
