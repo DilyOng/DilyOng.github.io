@@ -33,6 +33,8 @@ I am the author of [unimpeded](https://github.com/handley-lab/unimpeded), a Pyth
 
 **Total first-author citations:** 86
 
+Fellow of the Cambridge Philosophical Society (FCPS), Fellow of the Royal Astronomical Society (FRAS)
+
 **Research Interests:** Cosmology, Astrophysics, Bayesian Statistics, Machine Learning, Model Comparison, Tension Quantification, Nested Sampling
 
 **Contact me:** [dlo26@cam.ac.uk](mailto:dlo26@cam.ac.uk)
