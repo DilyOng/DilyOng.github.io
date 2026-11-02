@@ -60,7 +60,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "I am the principal investigator of two UKRI-funded DiRAC high-performance computing projects supporting cosmulator and cosmocompare, which I develop. I am also the main author of unimpeded and a contributing author of anesthetic.",
+          description: "Sole author of cosmulator and cosmocompare, developed as Principal Investigator (PI) of two UKRI-funded DiRAC high-performance computing projects. Principal author of unimpeded and contributing author of anesthetic.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
