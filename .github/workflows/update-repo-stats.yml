@@ -1,0 +1,37 @@
+name: Update GitHub Repository Stats
+
+on:
+  schedule:
+    - cron: "0 1 * * 1" # Monday
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-repo-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Update repo stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python bin/update_repo_stats.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add _data/repo_stats.yml
+          git diff --staged --quiet || (git commit -m "Update GitHub repository stats" && git push)

@@ -1,0 +1,20 @@
+DilyOng/cosmulator:
+  description: Accelerating cosmological inference with JAX machine-learning emulators on GPU — fast marginalisation and Bayesian evidence across a grid of cosmological models and surveys. A UKRI-funded DiRAC project.
+  language: Python
+  stars: 3
+  forks: 0
+DilyOng/cosmocompare:
+  description: Bayesian model comparison by importance sampling of existing nested-sampling chains
+  language: Python
+  stars: 0
+  forks: 0
+handley-lab/unimpeded:
+  description: Universal model comparison & parameter estimation over diverse datasets
+  language: Python
+  stars: 9
+  forks: 5
+handley-lab/anesthetic:
+  description: Nested Sampling post-processing and plotting
+  language: Python
+  stars: 75
+  forks: 20

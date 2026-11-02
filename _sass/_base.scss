@@ -552,9 +552,72 @@ footer.sticky-bottom {
 
 // Repositories
 
+.repo {
+  width: 100%;
+  align-self: stretch;
+}
+
 @media (min-width: 768px) {
   .repo {
     max-width: 50%;
+  }
+}
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  text-align: left;
+  transition: border-color 0.2s;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .repo-card-title {
+    color: var(--global-theme-color);
+    font-weight: 600;
+    word-break: break-word;
+
+    i {
+      color: var(--global-text-color-light);
+      margin-right: 0.3rem;
+    }
+  }
+
+  .repo-card-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+
+  .repo-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: auto;
+    padding-top: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+
+  .repo-card-lang-dot {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    background-color: #3572a5;
+    vertical-align: middle;
   }
 }
 
