@@ -384,6 +384,17 @@
             {% assign cited_by_count = entry.cited_by | plus: 0 %}
             {% assign cited_by_url = entry.cited_by_url %}
           {% endif %}
+          {% comment %}
+            Manual override: entry.cited_by_override always wins over live API counts.
+          {% endcomment %}
+          {% if entry.cited_by_override %}
+            {% assign cited_by_count = entry.cited_by_override | plus: 0 %}
+            {% if entry.cited_by_url %}
+              {% assign cited_by_url = entry.cited_by_url %}
+            {% elsif cited_by_url == '' %}
+              {% assign cited_by_url = 'https://ui.adsabs.harvard.edu/search/q=arXiv:' | append: entry.arxiv %}
+            {% endif %}
+          {% endif %}
           {% if cited_by_count > 0 %}
             <a
               href="{{ cited_by_url }}"

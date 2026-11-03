@@ -318,6 +318,7 @@ filtered_bibtex_keywords:
     blog,
     cited_by,
     cited_by_url,
+    cited_by_override,
     code,
     google_scholar_id,
     html,
