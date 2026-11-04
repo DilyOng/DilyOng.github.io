@@ -16,40 +16,27 @@ module Jekyll
       @recid = params.strip
     end
 
-    def render(context)
-      recid = context[@recid.strip]
+    # Raw integer citation count (or nil on failure), cached per build so the
+    # badge and the first-author total always agree.
+    def self.fetch_count(recid)
+      recid = recid.to_s
+      return Citations[recid] if Citations.key?(recid)
+
       api_url = "https://inspirehep.net/api/literature/?fields=citation_count&q=recid:#{recid}"
-
       begin
-        # If the citation count has already been fetched, return it
-        if InspireHEPCitationsTag::Citations[recid]
-          return InspireHEPCitationsTag::Citations[recid]
-        end
-
-        # Fetch the citation count from the API
-        uri = URI(api_url)
-        response = Net::HTTP.get(uri)
-        data = JSON.parse(response)
-
-        # # Log the response for debugging
-        # puts "API Response: #{data.inspect}"
-
-        # Extract citation count from the JSON data
-        citation_count = data["hits"]["hits"][0]["metadata"]["citation_count"].to_i
-
-        # Format the citation count for readability
-        citation_count = Helpers.number_to_human(citation_count, format: '%n%u', precision: 2, units: { thousand: 'K', million: 'M', billion: 'B' })
-
+        data = JSON.parse(Net::HTTP.get(URI(api_url)))
+        count = data["hits"]["hits"][0]["metadata"]["citation_count"].to_i
       rescue Exception => e
-        # Handle any errors that may occur during fetching
-        citation_count = "N/A"
-
-        # Print the error message including the exception class and message
+        count = nil
         puts "Error fetching citation count for #{recid}: #{e.class} - #{e.message}"
       end
+      Citations[recid] = count
+    end
 
-      InspireHEPCitationsTag::Citations[recid] = citation_count
-      return "#{citation_count}"
+    def render(context)
+      count = InspireHEPCitationsTag.fetch_count(context[@recid.strip])
+      return "N/A" if count.nil?
+      Helpers.number_to_human(count, format: '%n%u', precision: 2, units: { thousand: 'K', million: 'M', billion: 'B' }).to_s
     end
   end
 end
