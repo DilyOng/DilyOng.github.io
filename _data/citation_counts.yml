@@ -33,6 +33,10 @@ papers:
         raw: 7
         unique: 7
         url: https://openalex.org/works?filter=cites:W4417297102
+      semanticscholar:
+        raw: 1
+        unique: 1
+        url: https://www.semanticscholar.org/paper/0cb9127011b7262ffa6a1006315c4506eba17773#citing-papers
   '2511.10631':
     title: A Bayesian Perspective on Evidence for Evolving Dark Energy
     count: 39
@@ -87,3 +91,7 @@ papers:
         raw: 4
         unique: 4
         url: https://openalex.org/works?filter=cites:W7108748070
+      semanticscholar:
+        raw: 3
+        unique: 3
+        url: https://www.semanticscholar.org/paper/318e37de4129982763aeddcff2de7f8a55143de6#citing-papers
