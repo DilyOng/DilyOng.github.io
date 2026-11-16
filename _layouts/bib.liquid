@@ -353,39 +353,26 @@
           {% endif %}
           {% assign cited_by_count = 0 %}
           {% assign cited_by_url = '' %}
-          {% if site.enable_publication_badges.inspirehep and entry_has_inspirehep_badge %}
-            {% capture inspire_raw %}{% inspirehep_citations entry.inspirehep_id %}{% endcapture %}
-            {% assign inspire_raw_stripped = inspire_raw | strip %}
-            {% if inspire_raw_stripped != 'N/A' %}
-              {% assign inspire_count = inspire_raw_stripped | plus: 0 %}
-              {% if inspire_count > cited_by_count %}
-                {% assign cited_by_count = inspire_count %}
-                {% assign cited_by_url = 'https://inspirehep.net/literature/' | append: entry.inspirehep_id %}
-              {% endif %}
-            {% endif %}
-          {% endif %}
-          {% if entry_has_ads_badge %}
-            {% capture ads_count %}{% ads_citations entry.arxiv %}{% endcapture %}
-            {% assign ads_count_stripped = ads_count | strip %}
-            {% if ads_count_stripped != 'N/A' %}
-              {% assign ads_count_int = ads_count_stripped | plus: 0 %}
-              {% if ads_count_int > cited_by_count %}
-                {% assign cited_by_count = ads_count_int %}
-                {% assign cited_by_url = 'https://scixplorer.org/search?q=citations(arXiv%3A' | append: entry.arxiv | append: ')' %}
-              {% endif %}
-            {% endif %}
+          {% comment %}
+            Highest de-duplicated count across InspireHEP, ADS/SciX, OpenAlex and
+            Semantic Scholar, refreshed daily by bin/update_citations.py.
+          {% endcomment %}
+          {% assign citation_record = site.data.citation_counts.papers[entry.arxiv] %}
+          {% if citation_record %}
+            {% assign cited_by_count = citation_record.count | plus: 0 %}
+            {% assign cited_by_url = citation_record.url %}
           {% endif %}
           {% comment %}
-            Manual fallback for a paper no live citation API covers (e.g. not indexed
-            by InspireHEP). Only applies to entries that declare both fields, and only
-            when InspireHEP and ADS returned nothing.
+            Manual fallback for a paper no citation platform covers (e.g. not indexed
+            by any platform). Only applies to entries that declare both fields, and only
+            when _data/citation_counts.yml has no count for the paper.
           {% endcomment %}
           {% if cited_by_count == 0 and entry.cited_by and entry.cited_by_url %}
             {% assign cited_by_count = entry.cited_by | plus: 0 %}
             {% assign cited_by_url = entry.cited_by_url %}
           {% endif %}
           {% comment %}
-            Manual override: entry.cited_by_override always wins over live API counts.
+            Manual override: entry.cited_by_override always wins over the fetched counts.
           {% endcomment %}
           {% if entry.cited_by_override %}
             {% assign cited_by_count = entry.cited_by_override | plus: 0 %}

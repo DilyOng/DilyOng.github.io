@@ -2,7 +2,9 @@ require 'bibtex'
 
 # Computes the total citations of first-author papers, using exactly the same
 # per-paper count shown in the "Cited by" badge (see _layouts/bib.liquid):
-#   max(InspireHEP, ADS) -> manual cited_by fallback -> cited_by_override wins.
+#   _data/citation_counts.yml (highest de-duplicated count across platforms,
+#   refreshed daily by bin/update_citations.py) -> manual cited_by fallback ->
+#   cited_by_override wins.
 #
 # Exposed as {{ site.first_author_citations }}, and substituted for the
 # placeholder {first_author_citations} in any page's front-matter description.
@@ -14,18 +16,11 @@ module Jekyll
       entry.has_field?(name) ? entry[name].to_s.strip : nil
     end
 
-    def self.badge_count(entry, badges)
+    def self.badge_count(entry, counts)
       count = 0
-      inspire_id = field(entry, :inspirehep_id)
-      if badges['inspirehep'] && inspire_id && !inspire_id.empty?
-        c = InspireHEPCitationsTag.fetch_count(inspire_id)
-        count = c if c && c > count
-      end
       arxiv = field(entry, :arxiv)
-      if badges['ads'] && arxiv && !arxiv.empty?
-        c = ADSCitationsTag.fetch_count(arxiv)
-        count = c if c && c > count
-      end
+      record = counts[arxiv] if arxiv && !arxiv.empty?
+      count = record['count'].to_i if record
       if count == 0 && field(entry, :cited_by) && field(entry, :cited_by_url)
         count = field(entry, :cited_by).to_i
       end
@@ -37,7 +32,7 @@ module Jekyll
     def self.total(site)
       scholar = site.config['scholar'] || {}
       last_names = Array(scholar['last_name']).map { |n| n.to_s.downcase }
-      badges = site.config['enable_publication_badges'] || {}
+      counts = (site.data['citation_counts'] || {})['papers'] || {}
       source = File.join(site.source, scholar['source'] || '_bibliography')
       path = File.join(source, scholar['bibliography'] || 'papers.bib')
 
@@ -46,7 +41,7 @@ module Jekyll
         next 0 unless entry.respond_to?(:author) && entry.author
         first = entry.author.first
         next 0 unless first && last_names.include?(first.last.to_s.downcase)
-        badge_count(entry, badges)
+        badge_count(entry, counts)
       end
     rescue StandardError => e
       Jekyll.logger.warn 'FirstAuthorCitations:', "#{e.class} - #{e.message}"

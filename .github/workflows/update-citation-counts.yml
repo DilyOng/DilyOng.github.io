@@ -1,0 +1,62 @@
+name: Update citation counts
+
+# Daily: fetch citing papers from InspireHEP, ADS/SciX, OpenAlex and Semantic
+# Scholar, de-duplicate, keep the highest count per paper in
+# _data/citation_counts.yml, and redeploy the site if anything changed.
+
+on:
+  schedule:
+    - cron: "30 3 * * *" # every day, 03:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write # commit _data/citation_counts.yml
+  actions: write # trigger the deploy workflow
+
+concurrency:
+  group: update-citation-counts
+  cancel-in-progress: false
+
+jobs:
+  update-citation-counts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Fetch citation counts
+        env:
+          ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
+          S2_API_KEY: ${{ secrets.S2_API_KEY }} # optional
+        run: python bin/update_citations.py | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and push if changed
+        id: commit
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add _data/citation_counts.yml
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Update citation counts"
+            git pull --rebase
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Pushes made with GITHUB_TOKEN do not trigger other workflows, but an
+      # explicit workflow_dispatch does.
+      - name: Redeploy site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref "${{ github.ref_name }}"

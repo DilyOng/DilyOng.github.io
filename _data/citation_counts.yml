@@ -1,0 +1,89 @@
+# Generated daily by bin/update_citations.py -- do not edit by hand.
+last_updated: '2026-11-16'
+papers:
+  '2603.05472':
+    title: 'The Bayesian view of DESI DR2 with unimpeded: Evidence and tension in a combined analysis with CMB and supernovae across cosmological models'
+    count: 37
+    source: ads
+    url: https://scixplorer.org/search?q=citations(arXiv%3A2603.05472)
+    sources:
+      inspirehep:
+        raw: 35
+        unique: 35
+        url: https://inspirehep.net/literature?q=refersto%3Arecid%3A3127005
+      ads:
+        raw: 38
+        unique: 37
+        url: https://scixplorer.org/search?q=citations(arXiv%3A2603.05472)
+      openalex:
+        raw: 34
+        unique: 34
+        url: https://openalex.org/works?filter=cites:W7134048644
+  '2512.10924':
+    title: Signatures of star formation inside galactic outflows
+    count: 7
+    source: openalex
+    url: https://openalex.org/works?filter=cites:W4417297102
+    sources:
+      ads:
+        raw: 6
+        unique: 6
+        url: https://scixplorer.org/search?q=citations(arXiv%3A2512.10924)
+      openalex:
+        raw: 7
+        unique: 7
+        url: https://openalex.org/works?filter=cites:W4417297102
+  '2511.10631':
+    title: A Bayesian Perspective on Evidence for Evolving Dark Energy
+    count: 39
+    source: ads
+    url: https://scixplorer.org/search?q=citations(arXiv%3A2511.10631)
+    sources:
+      inspirehep:
+        raw: 35
+        unique: 35
+        url: https://inspirehep.net/literature?q=refersto%3Arecid%3A3082889
+      ads:
+        raw: 40
+        unique: 39
+        url: https://scixplorer.org/search?q=citations(arXiv%3A2511.10631)
+      openalex:
+        raw: 37
+        unique: 37
+        url: https://openalex.org/works?filter=cites:W4416455520
+  '2511.04661':
+    title: 'unimpeded: A Public Grid of Nested Sampling Chains for Cosmological Model Comparison and Tension Analysis'
+    count: 13
+    source: inspirehep
+    url: https://inspirehep.net/literature?q=refersto%3Arecid%3A3080626
+    sources:
+      inspirehep:
+        raw: 13
+        unique: 13
+        url: https://inspirehep.net/literature?q=refersto%3Arecid%3A3080626
+      ads:
+        raw: 12
+        unique: 12
+        url: https://scixplorer.org/search?q=citations(arXiv%3A2511.04661)
+      openalex:
+        raw: 11
+        unique: 11
+        url: https://openalex.org/works?filter=cites:W7204954478
+  '2511.05470':
+    title: 'unimpeded: A Public Nested Sampling Database for Bayesian Cosmology'
+    count: 5
+    source: inspirehep
+    url: https://inspirehep.net/literature?q=refersto%3Arecid%3A3081038
+    sources:
+      inspirehep:
+        raw: 5
+        unique: 5
+        url: https://inspirehep.net/literature?q=refersto%3Arecid%3A3081038
+      ads:
+        raw: 4
+        unique: 4
+        url: https://scixplorer.org/search?q=citations(arXiv%3A2511.05470)
+      openalex:
+        raw: 4
+        unique: 4
+        url: https://openalex.org/works?filter=cites:W7108748070
