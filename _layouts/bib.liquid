@@ -371,7 +371,7 @@
               {% assign ads_count_int = ads_count_stripped | plus: 0 %}
               {% if ads_count_int > cited_by_count %}
                 {% assign cited_by_count = ads_count_int %}
-                {% assign cited_by_url = 'https://ui.adsabs.harvard.edu/search/q=arXiv:' | append: entry.arxiv %}
+                {% assign cited_by_url = 'https://scixplorer.org/search?q=citations(arXiv%3A' | append: entry.arxiv | append: ')' %}
               {% endif %}
             {% endif %}
           {% endif %}
@@ -392,7 +392,7 @@
             {% if entry.cited_by_url %}
               {% assign cited_by_url = entry.cited_by_url %}
             {% elsif cited_by_url == '' %}
-              {% assign cited_by_url = 'https://ui.adsabs.harvard.edu/search/q=arXiv:' | append: entry.arxiv %}
+              {% assign cited_by_url = 'https://scixplorer.org/search?q=citations(arXiv%3A' | append: entry.arxiv | append: ')' %}
             {% endif %}
           {% endif %}
           {% if cited_by_count > 0 %}
