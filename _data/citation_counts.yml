@@ -1,11 +1,11 @@
 # Generated daily by bin/update_citations.py -- do not edit by hand.
-last_updated: '2026-11-16'
+last_updated: '2026-11-17'
 papers:
   '2603.05472':
     title: 'The Bayesian view of DESI DR2 with unimpeded: Evidence and tension in a combined analysis with CMB and supernovae across cosmological models'
-    count: 37
-    source: ads
-    url: https://scixplorer.org/search?q=citations(arXiv%3A2603.05472)
+    count: 39
+    source: openalex
+    url: https://openalex.org/works?filter=cites:W7134048644
     sources:
       inspirehep:
         raw: 35
@@ -16,8 +16,8 @@ papers:
         unique: 37
         url: https://scixplorer.org/search?q=citations(arXiv%3A2603.05472)
       openalex:
-        raw: 34
-        unique: 34
+        raw: 39
+        unique: 39
         url: https://openalex.org/works?filter=cites:W7134048644
   '2512.10924':
     title: Signatures of star formation inside galactic outflows
@@ -39,9 +39,9 @@ papers:
         url: https://www.semanticscholar.org/paper/0cb9127011b7262ffa6a1006315c4506eba17773#citing-papers
   '2511.10631':
     title: A Bayesian Perspective on Evidence for Evolving Dark Energy
-    count: 39
-    source: ads
-    url: https://scixplorer.org/search?q=citations(arXiv%3A2511.10631)
+    count: 42
+    source: openalex
+    url: https://openalex.org/works?filter=cites:W4416455520
     sources:
       inspirehep:
         raw: 35
@@ -52,8 +52,8 @@ papers:
         unique: 39
         url: https://scixplorer.org/search?q=citations(arXiv%3A2511.10631)
       openalex:
-        raw: 37
-        unique: 37
+        raw: 42
+        unique: 42
         url: https://openalex.org/works?filter=cites:W4416455520
   '2511.04661':
     title: 'unimpeded: A Public Grid of Nested Sampling Chains for Cosmological Model Comparison and Tension Analysis'
@@ -70,8 +70,8 @@ papers:
         unique: 12
         url: https://scixplorer.org/search?q=citations(arXiv%3A2511.04661)
       openalex:
-        raw: 11
-        unique: 11
+        raw: 12
+        unique: 12
         url: https://openalex.org/works?filter=cites:W7204954478
   '2511.05470':
     title: 'unimpeded: A Public Nested Sampling Database for Bayesian Cosmology'
