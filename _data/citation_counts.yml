@@ -1,5 +1,5 @@
 # Generated daily by bin/update_citations.py -- do not edit by hand.
-last_updated: '2026-11-17'
+last_updated: '2026-11-18'
 papers:
   '2603.05472':
     title: 'The Bayesian view of DESI DR2 with unimpeded: Evidence and tension in a combined analysis with CMB and supernovae across cosmological models'
@@ -73,6 +73,10 @@ papers:
         raw: 12
         unique: 12
         url: https://openalex.org/works?filter=cites:W7204954478
+      semanticscholar:
+        raw: 13
+        unique: 13
+        url: https://www.semanticscholar.org/paper/8d98d0f11a0dc4fe3384b7b35bc00eda028f965c#citing-papers
   '2511.05470':
     title: 'unimpeded: A Public Nested Sampling Database for Bayesian Cosmology'
     count: 5
