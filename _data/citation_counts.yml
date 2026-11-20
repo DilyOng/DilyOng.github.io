@@ -1,5 +1,5 @@
 # Generated daily by bin/update_citations.py -- do not edit by hand.
-last_updated: '2026-11-18'
+last_updated: '2026-11-20'
 papers:
   '2603.05472':
     title: 'The Bayesian view of DESI DR2 with unimpeded: Evidence and tension in a combined analysis with CMB and supernovae across cosmological models'
@@ -19,6 +19,10 @@ papers:
         raw: 39
         unique: 39
         url: https://openalex.org/works?filter=cites:W7134048644
+      semanticscholar:
+        raw: 18
+        unique: 18
+        url: https://www.semanticscholar.org/paper/194dba45f0b6a4fa9875c0aec81a6f54b5337f28#citing-papers
   '2512.10924':
     title: Signatures of star formation inside galactic outflows
     count: 7
@@ -39,7 +43,7 @@ papers:
         url: https://www.semanticscholar.org/paper/0cb9127011b7262ffa6a1006315c4506eba17773#citing-papers
   '2511.10631':
     title: A Bayesian Perspective on Evidence for Evolving Dark Energy
-    count: 42
+    count: 43
     source: openalex
     url: https://openalex.org/works?filter=cites:W4416455520
     sources:
@@ -48,13 +52,17 @@ papers:
         unique: 35
         url: https://inspirehep.net/literature?q=refersto%3Arecid%3A3082889
       ads:
-        raw: 40
-        unique: 39
+        raw: 41
+        unique: 40
         url: https://scixplorer.org/search?q=citations(arXiv%3A2511.10631)
       openalex:
-        raw: 42
-        unique: 42
+        raw: 43
+        unique: 43
         url: https://openalex.org/works?filter=cites:W4416455520
+      semanticscholar:
+        raw: 25
+        unique: 25
+        url: https://www.semanticscholar.org/paper/84cda83831e06f2986365894abe6fce8d5e14c96#citing-papers
   '2511.04661':
     title: 'unimpeded: A Public Grid of Nested Sampling Chains for Cosmological Model Comparison and Tension Analysis'
     count: 13
@@ -70,8 +78,8 @@ papers:
         unique: 12
         url: https://scixplorer.org/search?q=citations(arXiv%3A2511.04661)
       openalex:
-        raw: 12
-        unique: 12
+        raw: 13
+        unique: 13
         url: https://openalex.org/works?filter=cites:W7204954478
       semanticscholar:
         raw: 13
