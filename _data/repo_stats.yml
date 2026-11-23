@@ -10,7 +10,7 @@ DilyOng/cosmocompare:
   forks: 0
 handley-lab/unimpeded:
   description: Universal model comparison & parameter estimation over diverse datasets
-  language: Python
+  language: Jupyter Notebook
   stars: 9
   forks: 5
 handley-lab/anesthetic:
