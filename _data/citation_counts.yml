@@ -1,9 +1,9 @@
 # Generated daily by bin/update_citations.py -- do not edit by hand.
-last_updated: '2026-11-22'
+last_updated: '2026-11-24'
 papers:
   '2603.05472':
     title: 'The Bayesian view of DESI DR2 with unimpeded: Evidence and tension in a combined analysis with CMB and supernovae across cosmological models'
-    count: 39
+    count: 40
     source: openalex
     url: https://openalex.org/works?filter=cites:W7134048644
     sources:
@@ -16,8 +16,8 @@ papers:
         unique: 37
         url: https://scixplorer.org/search?q=citations(arXiv%3A2603.05472)
       openalex:
-        raw: 39
-        unique: 39
+        raw: 40
+        unique: 40
         url: https://openalex.org/works?filter=cites:W7134048644
       semanticscholar:
         raw: 18
