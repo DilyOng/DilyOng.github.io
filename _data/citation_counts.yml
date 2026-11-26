@@ -1,5 +1,5 @@
 # Generated daily by bin/update_citations.py -- do not edit by hand.
-last_updated: '2026-11-25'
+last_updated: '2026-11-26'
 papers:
   '2603.05472':
     title: 'The Bayesian view of DESI DR2 with unimpeded: Evidence and tension in a combined analysis with CMB and supernovae across cosmological models'
@@ -8,8 +8,8 @@ papers:
     url: https://openalex.org/works?filter=cites:W7134048644
     sources:
       inspirehep:
-        raw: 35
-        unique: 35
+        raw: 36
+        unique: 36
         url: https://inspirehep.net/literature?q=refersto%3Arecid%3A3127005
       ads:
         raw: 38
@@ -48,8 +48,8 @@ papers:
     url: https://openalex.org/works?filter=cites:W4416455520
     sources:
       inspirehep:
-        raw: 36
-        unique: 36
+        raw: 37
+        unique: 37
         url: https://inspirehep.net/literature?q=refersto%3Arecid%3A3082889
       ads:
         raw: 42
