@@ -1,5 +1,5 @@
 # Generated daily by bin/update_citations.py -- do not edit by hand.
-last_updated: '2026-11-26'
+last_updated: '2026-11-27'
 papers:
   '2603.05472':
     title: 'The Bayesian view of DESI DR2 with unimpeded: Evidence and tension in a combined analysis with CMB and supernovae across cosmological models'
@@ -25,7 +25,7 @@ papers:
         url: https://www.semanticscholar.org/paper/194dba45f0b6a4fa9875c0aec81a6f54b5337f28#citing-papers
   '2512.10924':
     title: Signatures of star formation inside galactic outflows
-    count: 7
+    count: 8
     source: openalex
     url: https://openalex.org/works?filter=cites:W4417297102
     sources:
@@ -34,8 +34,8 @@ papers:
         unique: 6
         url: https://scixplorer.org/search?q=citations(arXiv%3A2512.10924)
       openalex:
-        raw: 7
-        unique: 7
+        raw: 8
+        unique: 8
         url: https://openalex.org/works?filter=cites:W4417297102
       semanticscholar:
         raw: 1
